@@ -1,0 +1,19 @@
+<div style="width:100%;height:200px; background-color:green">
+  
+  <div>
+    welcome to my page <br>
+
+    <input type="number" [(ngModel)]="first"/>
+    <input type="number" [(ngModel)]="second"/>
+
+ <select [(ngModel)]="operand">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="/">/</option>
+  <option value="x">*</option>
+</select>
+
+    <button (click)="process()">=</button>
+{{result}}
+</div>
+  </div>>
